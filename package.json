@@ -1,0 +1,23 @@
+{
+  "name": "react-third-project",
+  "version": "1.0.0",
+  "description": "Third project with express and front-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "Shailesh Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
